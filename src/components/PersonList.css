@@ -1,0 +1,27 @@
+.container{
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px 5px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+ul{
+    max-height: 515px;
+    overflow-y: auto;
+}
